@@ -3,13 +3,13 @@ Algoritmo Mensualidad
 	definir edad1, edad2, edad3, edad4, suma_edades como entero;
 	escribir "Ingrese el monto a repartir.";
 	leer monto;
-	escribir "Ingrese la edad de la 1ra niña.";
+	escribir "Ingrese la edad de la 1ra niÃ±a.";
 	leer edad1;
-	escribir "Ingrese la edad de la 2ra niña.";
+	escribir "Ingrese la edad de la 2ra niÃ±a.";
 	leer edad2;
-	escribir "Ingrese la edad de la 3ra niña.";
+	escribir "Ingrese la edad de la 3ra niÃ±a.";
 	leer edad3;
-	escribir "Ingrese la edad de la 4ra niña.";
+	escribir "Ingrese la edad de la 4ra niÃ±a.";
 	leer edad4;
 	
 	suma_edades <- edad1 + edad2 + edad3 + edad4;
@@ -23,9 +23,9 @@ Algoritmo Mensualidad
 	monto_edad3 <- (monto * porcentaje3) / 100;
 	monto_edad4 <- (monto * porcentaje4) / 100;
 	
-	escribir "Niña 1: ", edad1, " años. Porcentaje asignado: ", porcentaje1, "%. Monto a cobrar: ", monto_edad1, "$";
-	escribir "Niña 2: ", edad2, " años. Porcentaje asignado: ", porcentaje2, "%. Monto a cobrar: ", monto_edad2, "$";
-	escribir "Niña 2: ", edad3, " años. Porcentaje asignado: ", porcentaje3, "%. Monto a cobrar: ", monto_edad3, "$";
-	escribir "Niña 4: ", edad4, " años. Porcentaje asignado: ", porcentaje4, "%. Monto a cobrar: ", monto_edad4, "$";
+	escribir "NiÃ±a 1: ", edad1, " aÃ±os. Porcentaje asignado: ", porcentaje1, "%. Monto a cobrar: ", monto_edad1, "$";
+	escribir "NiÃ±a 2: ", edad2, " aÃ±os. Porcentaje asignado: ", porcentaje2, "%. Monto a cobrar: ", monto_edad2, "$";
+	escribir "NiÃ±a 2: ", edad3, " aÃ±os. Porcentaje asignado: ", porcentaje3, "%. Monto a cobrar: ", monto_edad3, "$";
+	escribir "NiÃ±a 4: ", edad4, " aÃ±os. Porcentaje asignado: ", porcentaje4, "%. Monto a cobrar: ", monto_edad4, "$";
 	
 FinAlgoritmo
